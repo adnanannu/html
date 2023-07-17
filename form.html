@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+                div{
+
+            background-color:gray;    
+            margin-left:100;
+            height: 500px;
+            width: 500px;
+        }
+        label 
+        {
+            width: 150px;
+            display:inline-block;
+        }
+        input 
+        {
+            margin-bottom: 3px;
+        }
+    
+        </style>
+    </head>
+    <body>
+        <h2 style="margin-left: 100;">BIO DATA</h2>
+        <div>
+        <form style="padding: 50px; align-items: center;">
+            <label>NAME:</label>
+            <input type="text" name="name" placeholder="enter a name"><br> 
+            <label>AGE:</label>
+            <input type="number" name="age" placeholder="enter your age"><br>
+            <label>Email:</label>
+            <input type="email" name="Email" placeholder="enter Email"><br>
+            <label>GENDER</label>
+            <input type="radio" name="male" placeholder="gender"required>male
+            <input type="radio" name="female" placeholder="gender"required>female<br>
+            <label>DATE OF BIRTH:</label>
+            <input type="date" name="dob"><br>
+            <label for="address">ADDRESS</label>
+            <textarea name="address" id="address" rows="3" cols="12"></textarea>
+            <br>
+            <label>Qualification:</label>
+            <input type="checkbox" value="sslc" placeholder="Qualification" required>sslc
+            <input type="checkbox" value="plus two" placeholder="Qualification" required>plus two<br>
+            <label>DISTRICT:</label>
+            <select name="id">
+            <option>select district</option>
+            <option>calicut</option>
+            <option>kannur</option>
+            <option>kochi</option>
+            </select>
+            <br>
+            <label>PHOTO:</label>
+            <input type="file" name="photo" placeholder="choose file" required><br>
+            <label>USER NAME:</label>
+            <input type="email" name="username" placeholder="enter username"><br>
+            <label>PASSWORD:</label>
+            <input type="password" name="PASSWORD" placeholder="enter PASSWORD"><br>
+            <label>confirm password:</label>
+            <input type="password" name="PASSWORD" placeholder="enter PASSWORD"><br>
+            
+            <input type="submit" name="submit" placeholder="submit" style="margin-left: 50px; background-color: green;"><br>
+
+    
+
+            
+
+
+        </form>
+
+    </body>
+    </div>
+</html>
